@@ -1,6 +1,6 @@
 import GridImage from "../assets/photo-grid.png";
 
-export default function Hero() {
+const Hero = () => {
   return (
     <div className="hero">
       <img src={GridImage} alt="" />
@@ -11,4 +11,6 @@ export default function Hero() {
       </p>
     </div>
   );
-}
+};
+
+export default Hero;
