@@ -76,18 +76,26 @@ body {
   padding: 0px 5px;
 }
 
-.card--rating img {
+.rating--image {
   width: 14px;
   height: 14px;
 }
 
 .card--rating p {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 3px;
+  color: gray;
 }
 
-.card--discription,
+.card--discription {
+  padding: 5px;
+  padding-bottom: 0;
+  width: 90%;
+  font-size: 14px;
+  margin: 0;
+}
+
 .card--price {
   padding: 5px;
   width: 90%;

@@ -2,7 +2,7 @@
 import star from "../assets/star.png";
 
 const Rating = (props) => {
-  const ratingString = `(${props.count}) : ${props.place}`;
+  const ratingString = `(${props.count}) • ${props.place}`;
   return (
     <div className="card--rating">
       <img src={star} alt={props.alt} className="rating--image" />
